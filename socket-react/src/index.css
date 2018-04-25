@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.wrap {
+  list-style-type: none;
+}
+
+.name {
+  font-weight: bold;
+}
+.message {
+  margin-left: 20px;
+}
+.footer {
+  margin-left: 40px;
+}
+
+.messageInput {
+  border-radius: 1px;
+  border: 1px solid rgba(0,0,0,0.3);
+  transition: all 200ms;
+  width: 400px;
+  height: 100px;
+  font-size: 16px;
+}
+.messageInput:hover, 
+.messageInput:focus {
+  border-color: rgba(0,0,0,0.8);
+  outline: none;
+}
